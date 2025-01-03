@@ -4,7 +4,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 普通服务器, server: 23.83.235.151, port: 29059, type: vmess, uuid: a57a3659-f398-41fd-8d19-8baaa88a6350, alterId: 0, cipher: auto, tls: false}
+  - {name: JMS-65521@c37s801.portablesubmarines.com:29059, server: c37s801.portablesubmarines.com, port: 29059, type: vmess, uuid: a57a3659-f398-41fd-8d19-8baaa88a6350, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: Proxies
     type: select
@@ -14,7 +14,7 @@ proxy-groups:
       - JP
       - US
       - TW
-      - 普通服务器
+      - JMS-65521@c37s801.portablesubmarines.com:29059
   - name: Apple
     type: select
     proxies:
